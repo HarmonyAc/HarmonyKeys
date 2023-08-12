@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <title>Harmony Keys | Piano Academy</title>
+</head>
+<body>
+<header>
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container nav-bar w-100">
+          <h1 class="logo">HarmonyKeys</h1>
+          <ul class="nav-links d-sm-flex d-none">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="lessons.html">Lessons</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="fas fa-bars small-menu d-block d-sm-none" id="s-menu"></i>
+          <div class="small-menu-nav d-none" id="small-menu-nav">
+            <i class="fa fa-close" style="font-size:24px" id="fa-close"></i>
+            <ul class="s-nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="lessons.html">Lessons</a></li>
+              <li><a href="FAQ.html">FAQ</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- HERO SECTION -->
+    <section class="parallax-hero">
+        <img src="images/layer1.png" alt="">
+        <img src="images/layer2.png" alt="">
+        <h1 class="hero-title" id="hero_title">Unleash Your Musical Journey:
+            <br> Master the Art of Piano</h1>
+        <img src="images/layer3.png" alt="">
+        <img src="images/layer4.png" alt="">
+        <a href="#contact" class="cta-button">Start Playing Today – Schedule Your First Lesson!</a>
+
+    </section>
+</header>
+
+<main>
+
+    <section class="about-section" id="about">
+        <div class="background-gradient"></div>
+        <div>
+          <div class="about-introduction">
+            <h2 class="section-title">About Us</h2>
+        <div class="subsection">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Our Mission</h5>
+              <p class="card-text">
+                At our piano tutoring website, our mission is to inspire and empower individuals to discover 
+                the joy of playing the piano and embrace music as an essential part of their lives. We strive
+                 to create a supportive and nurturing environment where each student can flourish as a 
+                 musician and find their unique musical voice.
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"> Experienced Instructors</h5>
+              <p class="card-text">
+                Our team of expert instructors comprises accomplished musicians with years of teaching experience. They are not only dedicated to imparting musical knowledge but also passionate about cultivating creativity and fostering a love for music in each student.
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Tailored Learning</h5>
+              <p class="card-text">
+                We believe that each student is unique, and so are their musical aspirations. Our instructors tailor their teaching approach to match individual learning styles and goals. Whether you are a beginner or an advanced pianist, we have the perfect lessons to elevate your skills.
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Performance Opportunities</h5>
+              <p class="card-text">
+                We encourage our students to showcase their progress and gain confidence through regular student recitals and performances. These opportunities allow students to develop stage presence and share their musical achievements with a supportive audience.
+              </p>
+            </div>
+          </div> 
+        </div>
+        <div class="cta-container">
+          <a href="#" class="cta-btn">
+            Explore Our Lesson Packages
+            <span class="arrow-icon">&#8594;</span>
+          </a>
+        </div>
+          </div>
+        </div>
+        <div class="gradient-overlay"></div>
+      </section>
+
+     <section class="ServicesSection">
+      <h2 class="service-title">Piano Mastery Tailored to Your Needs</h2>
+      <div>
+      <div class="feature-block">
+        <i class="fas fa-book"></i>
+        <h2>Beginner's Foundation</h2>
+        <p>In this introductory program, we lay the groundwork for your piano journey. Our expert instructors take a patient and encouraging approach, teaching the fundamental principles of piano playing, music theory, and proper finger placement. With a strong emphasis on building a solid foundation, you will quickly gain confidence and enjoy playing your favorite tunes.</p>
+      </div>
+  
+      <div class="feature-block">
+        <i class="fas fa-music"></i>
+        <h2>Intermediate Artistry</h2>
+        <p>For those with some prior piano experience, our Intermediate Artistry program takes you to the next level. Delve deeper into music theory and explore various musical styles, including classical, jazz, and contemporary. Develop your expressive capabilities, dynamics, and techniques, while tackling more challenging pieces under the guidance of our skilled mentors.</p>
+      </div>
+  
+      <div class="feature-block">
+        <i class="fas fa-award"></i>
+        <h2>Advanced Virtuosity</h2>
+        <p>Our Advanced Virtuosity program is designed for experienced pianists seeking to refine their skills to a virtuosic level. Delve into complex compositions, explore the intricacies of musical interpretation, and develop your own unique artistic voice. Our esteemed instructors will provide invaluable insights to elevate your performances to the highest caliber.</p>
+      </div>        
+      </div>
+     </section>
+
+     <section id="testimonials" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <h2 class="text-center mb-5">What Our Students Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+              <!-- Testimonial slides -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial-item">
+                    <div class="user-div">
+                    <img class="user-img" src="images/users/ginger-female-with-pleasant-smile-has-freckled-skin-being-glad-be-photographed-dress-pink-sweater_176532-9535.jpg" alt="">
+                    </div>
+                    <div class="testi-stu-div">
+                      <div class="test-student">
+                        <h5 class="testimonial-author">Sarah Johnson</h5>
+                        <p class="testimonial-designation">Beginner Student</p>                        
+                      </div>
+                      <p class="testimonial-text">Learning piano at HarmonyKeys has been a truly enriching experience. The instructors are not only skilled musicians but also patient teachers who create a supportive learning environment.</p>                        
+                    </div>                    
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="testimonial-item">
+                    <div class="user-div">
+                    <img class="user-img" src="images/users/portrait-handsome-man-living-room_329181-3215.jpg" alt="">
+                    </div>
+                    <div class="testi-stu-div">
+                          <div class="test-student">
+                            <h5 class="testimonial-author">Michael Brown</h5>
+                            <p class="testimonial-designation">Advanced Student</p>  
+                          </div>
+                          <p class="testimonial-text">I've been taking advanced piano lessons with HarmonyKeys for over a year now, and it's been incredible to witness my progress. Their personalized approach has helped me refine my technique and musicality.</p>                               
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax">
+      <div class="parallax-container">
+        <div class="parallax-content">
+          <p>
+          contact us!  
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-info">
+      <div class="in-touch">
+        <div class="phone-f ">
+          <div>
+            <img src="images/icons/icons8-phone-50.png" alt="" class="touch-style">
+            <p>
+              PHONE
+            </p>
+          </div>
+          <div>
+            <span> +98 9351 123 878</span>
+          </div>
+          <div>
+            <span> +98 9351 123 878</span>
+          </div>
+        </div>
+
+        <div class="address-f">
+        <div>
+          <img src="images/icons/icons8-location-50.png" alt="" class="touch-style2">
+        <p>
+        ADDRESS    
+          </p>
+        </div>
+        <div>
+          <p>
+            Piano Harmony Institute <br>
+            123 Melody Street <br>
+            Harmonytown, Musicland 56789 <br>
+            Piano Land
+          </p>
+        </div>
+        </div>
+
+        <div class="email-f">
+          <div>
+            <img src="images/icons/icons8-letter-50.png" alt="" class="touch-style2">
+             <p>
+            EMAIL  
+            </p>
+            
+          </div>
+          <div>
+            <p>support@harmonySupport.com</p>
+            <p>lessons@harmonyLessons.com</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="form-contact">
+        <h5>
+          if you have any questions <br>
+          please do not hesitate to send us a message.
+        </h5>
+        <form action="#" class="forms">
+          <input type="text" name="name" id="name" placeholder="Your Name">
+          <br><input type="email" name="email" id="email" placeholder="Your Email">
+          <br><input type="text" name="subject" id="subject" placeholder="Subject">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Message</textarea>
+          <button class="submit-btn">send message</button>
+        </form>
+      </div>
+      <div class="social-networks">
+
+      </div>
+    </section>
+      
+</main>
+
+<footer>
+  <div class="container container-ed">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>HarmonyKeys</h2>
+      </div>
+      <div class="footer-shortcuts">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#lessons">Lessons</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-line"></div>
+    <p class="footer-credits">© 2023 HarmonyKeys. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
