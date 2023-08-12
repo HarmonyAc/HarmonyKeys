@@ -281,3 +281,16 @@ hr{
      flex: 0 0 480px;
   }
 }
+@media screen and (max-width:426px){
+  .Lesson-content > p{
+    font-size: 60px;
+    padding-top: 8rem;
+  }
+}
+@media screen and (max-width:376px){
+  .Lesson-content > p {
+    font-size: 60px;
+    padding-top: 8rem;
+    padding-right: 1rem;
+ }
+}
