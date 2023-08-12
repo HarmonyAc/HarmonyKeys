@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+    <!-- custom style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- custom style -->
+    <link rel="stylesheet" href="assets/css/lessons.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <title>Harmony Keys | Piano Academy</title>
+</head>
+<body>
+<header>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-bar w-100">
+          <h1 class="logo">HarmonyKeys</h1>
+          <ul class="nav-links d-sm-flex d-none">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="lessons.html">Lessons</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="fas fa-bars small-menu d-block d-sm-none" id="s-menu"></i>
+        </div>
+      </nav>
+
+    <!-- HERO SECTION -->
+      <section class="lessons-header">
+        <div class="blankblur"></div>
+        <div class="Lesson-content">
+          <p>
+            Explore our <br>Lessons
+          </p>
+          <div class="content-btn">
+            <a href="#lesson-header" class="ctn-btn">
+              <span class="arrow-icon">&#8594;</span>
+            </a>
+          </div>
+        </div>
+      </section>
+</header>
+
+<main>
+    <!-- Lessons Plan Content -->
+  <div class="lessons-container mt-5">
+    <h1 class="text-center mb-4" id="lesson-header">Our Piano Lessons Plans</h1>
+    
+    <p class="text-center">Discover our comprehensive and personalized piano lessons.</p>
+
+    <!-- Meet Our Instructors -->
+    <section class="my-5">
+      <h2 class="text-center mb-4">Meet Our Instructors</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="images/users/john.jpg" class="card-img-top" alt="Instructor 1">
+            <div class="card-body">
+              <h3 class="card-title">John Doe</h3>
+              <p class="card-text">John Doe is an accomplished pianist with over 10 years of teaching experience.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="images/users/jane.jpg" class="card-img-top" alt="Instructor 2">
+            <div class="card-body">
+              <h3 class="card-title">Jane Smith</h3>
+              <p class="card-text">Jane Smith is a classically trained pianist who is passionate about sharing her love for music.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lesson Plans -->
+    <section class="my-5">
+      <h2 class="text-center mb-4">Lesson Plans</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Beginner Piano Lessons</h3>
+              <p class="card-text">Our beginner lessons are designed for those with little to no prior piano experience.</p>
+              <ul class="list-group">
+                <li class="list-group-item">Introduction to the piano keyboard</li>
+                <li class="list-group-item">Basic music theory concepts</li>
+                <li class="list-group-item">Playing simple melodies</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Intermediate Piano Lessons</h3>
+              <p class="card-text">For students with some foundational knowledge, our intermediate lessons focus on enhancing skills.</p>
+              <ul class="list-group">
+                <li class="list-group-item">Advanced music theory topics</li>
+                <li class="list-group-item">Technique improvement</li>
+                <li class="list-group-item">Exploring various musical genres</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Lesson Enrolling Section -->
+  <section class="lesson-enrolling">
+    <div class="container">
+      <h2>Lesson Enrolling</h2>
+      <div class="lesson-options">
+        <div class="lesson-option">
+          <h3>Beginner Piano</h3>
+          <p>Introduction to the piano keyboard and basic music theory.</p>
+          <p>Duration: 45 minutes</p>
+          <p>Frequency: Once a week</p>
+          <p>Monthly Fee: $100</p>
+          <button class="enroll-button btn btn-clr text-white" data-subject="Beginner Piano">Enroll</button>
+        </div>
+        <div class="lesson-option">
+          <h3>Intermediate Piano</h3>
+          <p>Advanced music theory topics and technique improvement.</p>
+          <p>Duration: 45 minutes</p>
+          <p>Frequency: Once a week</p>
+          <p>Monthly Fee: $120</p>
+          <button class="enroll-button btn btn-clr text-white" data-subject="Intermediate Piano">Enroll</button>
+        </div>
+        <div class="lesson-option">
+          <h3>Advanced  Piano</h3>
+          <p>Advanced music theory topics and technique improvement.</p>
+          <p>Duration: 45 minutes</p>
+          <p>Frequency: Once a week</p>
+          <p>Monthly Fee: $220</p>
+          <button class="enroll-button btn btn-clr text-white" data-subject="Advanced  Piano">Enroll</button>
+        </div>
+        <!-- Add more lesson options here -->
+      </div>
+    </div>
+  </section>
+  <section class="schedule-section">
+    <h2 class="text-center mb-4">Schedule and Availability</h2>
+    <div class="container">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Lesson</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>10:00 AM - 10:45 AM</td>
+            <td>Beginner Piano</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>2:00 PM - 2:45 PM</td>
+            <td>Intermediate Piano</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>2:00 PM - 2:45 PM</td>
+            <td>Advanced  Piano</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>12:00 PM - 2:45 PM</td>
+            <td>Intermediate Piano</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>9:00 AM - 12:45 PM</td>
+            <td>Advanced  Piano</td>
+          </tr>
+          <!-- Add more rows for other days and lessons -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+ <!-- Upcoming Events Section -->
+ <section class="upcoming-events-section">
+  <h2 class="text-center mb-4">Upcoming Events</h2>
+  <div class="container">
+    <div class="row" id="events-container">
+      <!-- Events will be added here dynamically using JavaScript -->
+    </div>
+  </div>
+</section>
+
+
+
+   
+<!-- newsletter -->
+<hr>
+<div class="container news flow">
+  <h2 class="news__title">Sign up for newsletters</h2>
+  <div class="news-grid">
+     <div class="card__group">
+        <div class="card active">
+           <input class="custom" type="checkbox" id="check1" / checked>
+           <label for="check1">
+              <h5>Daily Bits</h5>
+              <p>Today’s biggest news</p>
+           </label>
+        </div>
+        <div class="card">
+           <input class="custom" type="checkbox" id="check2" />
+           <label for="check2">
+              <h5>Week in Review</h5>
+              <p>The week’s biggest news</p>
+           </label>
+        </div>
+     </div>
+     <div class="card__group">
+        <div class="card">
+           <input class="custom" type="checkbox" id="check3" />
+           <label for="check3">
+              <h5>The Exchange</h5>
+              <p>Art, money and markets</p>
+           </label>
+        </div>
+        <div class="card">
+           <input class="custom" type="checkbox" id="check4" />
+           <label for="check4">
+              <h5>Event Updates</h5>
+              <p>Announcements and discounts</p>
+           </label>
+        </div>
+     </div>
+     <div class="card__group">
+        <div class="card">
+           <input class="custom" type="checkbox" id="check5" />
+           <label for="check5">
+              <h5>Sponsorship</h5>
+              <p>Partnership insights</p>
+           </label>
+        </div>
+        <div class="card">
+           <input class="custom" type="checkbox" id="check6" />
+           <label for="check6">
+              <h5>This Week in Art</h5>
+              <p>Art news of the week</p>
+           </label>
+        </div>
+     </div>
+  </div>
+  <div class="news__form">
+     <input type="email" placeholder="Enter your email address" />
+     <button class="news__btn">Subscribe</button>
+  </div>
+</div>
+  </div>
+ 
+</main>
+
+<footer>
+  <div class="container container-ed">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>HarmonyKeys</h2>
+      </div>
+      <div class="footer-shortcuts">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#lessons">Lessons</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-line"></div>
+    <p class="footer-credits">© 2023 HarmonyKeys. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
