@@ -347,7 +347,7 @@ header{
 
 /* Create the parallax container */
 .parallax-container {
-  background-image: url('../../images/users/playingPiano.avif');
+  background-image: url('../../images/users/playingPiano.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
